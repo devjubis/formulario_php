@@ -1,9 +1,9 @@
 <?php
 // Configurações do banco de dados
-$hostname = "127.0.0.1"; // Endereço do servidor MySQL (pode ser 'localhost' ou '127.0.0.1')
-$username = "root";      // Nome de usuário do MySQL
-$password = "";          // Senha do MySQL
-$database = "corretores"; // Nome do banco de dados que você criou no phpMyAdmin
+$hostname = "127.0.0.1"; 
+$username = "root";      
+$password = "";          
+$database = "corretores"; 
 
 // Conexão com o banco de dados
 $conexao = new mysqli($hostname, $username, $password, $database);
