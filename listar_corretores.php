@@ -1,13 +1,13 @@
 <?php
-// Inclui arquivo de conexão
+
 include 'conexao.php';
 
-// Consulta SQL para selecionar todos os corretores
+
 $sql = "SELECT id, cpf, creci, nome FROM corretores";
 $resultado = $conexao->query($sql);
 
 if ($resultado->num_rows > 0) {
-    // Início da tabela HTML
+    
     echo "<table border='1'>";
     echo "<thead>";
     echo "<tr><th>ID</th><th>CPF</th><th>CRECI</th><th>Nome</th><th>Ações</th></tr>";
@@ -31,6 +31,6 @@ if ($resultado->num_rows > 0) {
     echo "Nenhum corretor encontrado.";
 }
 
-// Fecha conexão com o banco de dados
+
 $conexao->close();
 ?>
