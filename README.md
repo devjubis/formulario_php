@@ -1,4 +1,4 @@
-Este é um projeto de Formulário em PHP 
+## Este é um projeto de Formulário em PHP 
 ![WhatsApp Image 2024-06-24 at 11 12 52](https://github.com/devjubis/formulario_php/assets/110790833/149f18e6-ae37-4fbe-bead-33ed656a081e)
 
 # HTML da Página de Cadastro:
@@ -30,4 +30,6 @@ Este é um projeto de Formulário em PHP
 # Botões de Editar e Excluir:
 
   Para o registro na tabela de corretores, apresentar botões de "Editar" e "Excluir".
+
+
   
