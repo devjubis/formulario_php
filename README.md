@@ -21,6 +21,8 @@
     Nome (varchar(100))
     CPF (varchar(11))
     CRECI (varchar(10))
+    ![image](https://github.com/devjubis/formulario_php/assets/110790833/1168551d-a2b5-4a05-88dd-51237e015ba1)
+
 
 # Exibição dos Corretores Cadastrados:
 
